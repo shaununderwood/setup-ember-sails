@@ -9,6 +9,19 @@ Not quite.  Ember was quite picky about the data received from Sails, and Sails 
 
 So, here is the setup I worked out, allowing an Ember frontend to communicate with Sails backend with MariaDB at the rear.
 
+Resources
+--
+
+* [EmberJS](http://emberjs.com/) v2.7
+* [SailsJS](http://sailsjs.org/) v0.12.4
+* [sails-mysql](https://www.npmjs.com/package/sails-mysql) v0.11.5
+* [sails-json-api-blueprints](https://www.npmjs.com/package/sails-json-api-blueprints) v0.12.1
+* [sails-generate-models](https://www.npmjs.com/package/sails-generate-models) v1.1.0
+* [JSON API](http://jsonapi.org/) v1.0
+* [node](https://nodejs.org/en/) v6.5.0
+* [npm](https://www.npmjs.com/) v3.10.3
+* [nvm](https://github.com/creationix/nvm) v0.31.6
+
 
 Hurdles and Solutions
 --
@@ -122,18 +135,5 @@ export default DS.Model.extend({
   idvstatus:    attr( ),
 });
 ```
-
-
-Resources
---
-
-* [EmberJS](http://emberjs.com/) v2.7
-* [SailsJS](http://sailsjs.org/) v0.12.4
-* [sails-mysql](https://www.npmjs.com/package/sails-mysql) v0.11.5
-* [sails-json-api-blueprints](https://www.npmjs.com/package/sails-json-api-blueprints) v0.12.1
-* [sails-generate-models](https://www.npmjs.com/package/sails-generate-models) v1.1.0
-
-
-
 
 
