@@ -82,7 +82,7 @@ I updated the database details in `config/connections.js` to the MariaDB previou
     host:     'localhost',
     user:     'user',
     password: 'password',
-    database: 'idv'
+    database: 'vdi'
   },
 ```
 
@@ -104,7 +104,6 @@ Then in the Sails project folder I ran `sails-generate-models`; all my models an
 - Writing AccountsController.js...
 - Writing Headings.js...
 - Writing HeadingsController.js...
-- Writing Idv-log.js...
 ...
 ```
 
@@ -131,9 +130,7 @@ export default DS.Model.extend({
   address1:     attr( ),
   address2:     attr( ),
   role:         attr( ),
-  shareholding: attr( ),
   nationality:  attr( ),
-  idvstatus:    attr( ),
 });
 ```
 
