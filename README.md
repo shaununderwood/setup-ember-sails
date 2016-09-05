@@ -21,6 +21,7 @@ Resources
 * [node](https://nodejs.org/en/) v6.5.0
 * [npm](https://www.npmjs.com/) v3.10.3
 * [nvm](https://github.com/creationix/nvm) v0.31.6
+* [PATCH-PUT solution](https://github.com/balderdashy/sails/pull/2006#issuecomment-95293136)
 
 
 Hurdles and Solutions
